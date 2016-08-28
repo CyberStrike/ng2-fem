@@ -25,6 +25,7 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.32",
     "awesome-typescript-loader": "^0.17.0",
     "core-js": "^2.4.0",
     "jasmine-core": "^2.4.1",

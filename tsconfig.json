@@ -5,18 +5,29 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "suppressImplicitAnyIndexErrors":true
-  },
+    "suppressImplicitAnyIndexErrors":true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "mapRoot": "./",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "outDir": "../dist/out-tsc",
+    "sourceMap": true,
+    "typeRoots": [
+      "../node_modules/@types"],
+    "types": ["core-js"]},
   "compileOnSave": false,
   "buildOnSave": false,
   "exclude": [
-    "node_modules"
-  ],
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"],
   "filesGlob": [
     "app/**/*.ts",
-    "typings/index.d.ts"
-  ],
+    "typings/index.d.ts"],
   "atom": {
-    "rewriteTsconfig": false
-  }
+    "rewriteTsconfig": false}
 }
